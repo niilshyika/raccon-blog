@@ -1,0 +1,33 @@
+.logo-container {
+  height: 54px;
+  position: relative;
+  transition: height .1s;
+}
+@media screen and (min-width: 768px) {
+  .logo-container {
+    height: 82px;
+  }
+}
+.logo-container__image {
+  width: 230px;
+  height: 34px;
+  margin: 0 auto;
+  /*- common*/
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: url("img's/mini-logo.png") no-repeat 50%;
+}
+@media screen and (min-width: 768px) {
+  .logo-container__image {
+    width: 369px;
+    height: 56px;
+    margin: 0 auto;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    background: url("../img's/logo.png") no-repeat 50%;
+  }
+}
+.logo-container__caption {
+  display: none;
+}
+/*# sourceMappingURL=header.css.map */

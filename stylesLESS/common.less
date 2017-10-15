@@ -1,0 +1,41 @@
+@import "header.less";
+@import "navigation.less";
+@import "main.less";
+@import "sidebar.less";
+
+body {
+  font-size: 100%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  min-width: 320px;
+}
+
+.clearfix {
+  content: '';
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    display: none;
+  }
+}
+
+div.block-flex {
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    display: block;
+  }
+  
+}
+
+.block-visible {
+  display: block;
+}
+
+.block-flex {
+  display: flex;
+}
+.captions-container--block {
+  display: block;
+}
+
